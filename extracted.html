@@ -15,7 +15,7 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-badge"><span class="pulse"></span> 支持 Opus 4.6 / GPT-5.3 / Cherry Studio</div>
-  <h1>三���接入，<span class="shine-text">即刻起飞</span></h1>
+  <h1>三步接入，<span class="shine-text">即刻起飞</span></h1>
   <p>选择您常用的 AI 编程助手，快速完成配置。一个 API Key 畅享所有大模型。</p>
 </section>
 
@@ -235,7 +235,7 @@
         <p>确保已安装 Node.js ≥22，然后在终端运行：<br><code>npm install -g openclaw@latest</code></p>
       </div></div>
       <div class="qs-step"><div class="step-num">2</div><div class="step-content">
-        <h4>初始��配置</h4>
+        <h4>初始化配置</h4>
         <p>运行 <code>openclaw onboard --install-daemon</code> 启动初始化程序，选择 Custom Provider，填入 API 地址和 Key。</p>
       </div></div>
       <div class="qs-step"><div class="step-num">3</div><div class="step-content">
@@ -297,7 +297,7 @@
     </div>
     <div class="qs-code-block">
       <div class="code-header"><div class="code-dots"><i></i><i></i><i></i></div><span>Cherry Studio 配置</span><button class="copy-btn" onclick="copyCode(this)">复制</button></div>
-      <pre class="code-content"><span class="hl-comment"># Step 1: ��载安装</span>
+      <pre class="code-content"><span class="hl-comment"># Step 1: 下载安装</span>
 <span class="hl-comment"># https://www.cherry-ai.com/download</span>
 
 <span class="hl-comment"># Step 2: 获取 API Key</span>
@@ -404,7 +404,7 @@
       <div class="feature-grid">
         <div class="feature-item"><h4>智能代码理解</h4><p>深度理解项目结构、依赖关系和代码逻辑</p></div>
         <div class="feature-item"><h4>自然语言交互</h4><p>用中文或英文描述需求，AI 自动生成代码</p></div>
-        <div class="feature-item"><h4>��端原生体验</h4><p>无需离开终端，直接在命令行中完成所有操作</p></div>
+        <div class="feature-item"><h4>终端原生体验</h4><p>无需离开终端，直接在命令行中完成所有操作</p></div>
         <div class="feature-item"><h4>多文件编辑</h4><p>一次对话中可同时修改多个文件，保持一致性</p></div>
       </div>
 
@@ -456,7 +456,7 @@ node --version  # 应显示 v18+ 或 v20+</code></pre>
 
       <div class="tip-box">
         <div class="tip-title">⚠ Windows 用户注意</div>
-        <p>Windows 系��还需要额外安装 <a href="https://git-scm.com/downloads/win" target="_blank" style="color:var(--primary)">Git for Windows</a>，否则 Claude Code 可能无法正常运行。安装时保持默认选项即可。</p>
+        <p>Windows 系统还需要额外安装 <a href="https://git-scm.com/downloads/win" target="_blank" style="color:var(--primary)">Git for Windows</a>，否则 Claude Code 可能无法正常运行。安装时保持默认选项即可。</p>
       </div>
 
       <h3>2. 安装 Claude Code CLI（必须）</h3>
@@ -488,7 +488,7 @@ node --version  # 应显示 v18+ 或 v20+</code></pre>
 }</code></pre>
       <div class="tip-box">
         <div class="tip-title">提示</div>
-        <p>也可以��过环境变量配置：<code>export ANTHROPIC_BASE_URL="https://api.xingkongnsaichat.dpdns.org"</code> 和 <code>export ANTHROPIC_AUTH_TOKEN="sk-xxx"</code></p>
+        <p>也可以通过环境变量配置：<code>export ANTHROPIC_BASE_URL="https://api.xingkongnsaichat.dpdns.org"</code> 和 <code>export ANTHROPIC_AUTH_TOKEN="sk-xxx"</code></p>
       </div>
 
       <h3>3. 配置 .claude.json</h3>
@@ -546,7 +546,7 @@ claude</code></pre>
       <pre><code>/compact [instructions]  # 可以添加说明，告诉 Claude 保留哪些重要信息</code></pre>
 
       <h3>恢复以前的对话</h3>
-      <p>��用 <code>/resume</code> 或在启动时加 <code>--resume</code> 参数恢复之前的对话：</p>
+      <p>使用 <code>/resume</code> 或在启动时加 <code>--resume</code> 参数恢复之前的对话：</p>
       <pre><code>claude --resume        # 启动时恢复上次对话
 claude --resume &lt;id&gt;   # 恢复指定 ID 的对话</code></pre>
 
@@ -578,7 +578,7 @@ claude --resume &lt;id&gt;   # 恢复指定 ID 的对话</code></pre>
 
       <h2 id="cc-advanced">高级技巧</h2>
       <h3>项目记忆文件 (CLAUDE.md)</h3>
-      <p>��项目根目录创建 <code>CLAUDE.md</code> 文件，Claude 会在每次启动时自动读取，用于了解项目上下文：</p>
+      <p>在项目根目录创建 <code>CLAUDE.md</code> 文件，Claude 会在每次启动时自动读取，用于了解项目上下文：</p>
       <pre><code># 项目架构
 - 前端：React + TypeScript + Tailwind
 - 后端：Node.js + Express + Prisma
@@ -704,7 +704,7 @@ claude --resume &lt;id&gt;   # 恢复指定 ID 的对话</code></pre>
       <p><strong>Q: 配置后无法连接？</strong></p>
       <p>检查是否勾选了不该勾选的选项（Anthropic 标头传递、1M 上下文），确认 API Key 和 Base URL 填写正确。</p>
       <p><strong>Q: 支持哪些模型？</strong></p>
-      <p>通过 xingkong Api 中转站，你可以使用 Anthropic 提供的所���模型，推荐使用 <code>claude-opus-4-6</code> 获得最佳体验。</p>
+      <p>通过 xingkong Api 中转站，你可以使用 Anthropic 提供的所有模型，推荐使用 <code>claude-opus-4-6</code> 获得最佳体验。</p>
     </div>
     <!-- ═══ OPENCODE DOC ═══ -->
     <div class="doc-card" id="doc-opencode">

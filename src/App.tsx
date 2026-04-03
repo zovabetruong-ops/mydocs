@@ -409,7 +409,7 @@ window.closeSidebar = closeSidebar;
     </div>
     <div class="qs-code-block">
       <div class="code-header"><div class="code-dots"><i></i><i></i><i></i></div><span>Cherry Studio 配置</span><button class="copy-btn" onclick="copyCode(this)">复制</button></div>
-      <pre class="code-content"><span class="hl-comment"># Step 1: ��载安装</span>
+      <pre class="code-content"><span class="hl-comment"># Step 1: 下载安装</span>
 <span class="hl-comment"># https://www.cherry-ai.com/download</span>
 
 <span class="hl-comment"># Step 2: 获取 API Key</span>
@@ -516,7 +516,7 @@ window.closeSidebar = closeSidebar;
       <div class="feature-grid">
         <div class="feature-item"><h4>智能代码理解</h4><p>深度理解项目结构、依赖关系和代码逻辑</p></div>
         <div class="feature-item"><h4>自然语言交互</h4><p>用中文或英文描述需求，AI 自动生成代码</p></div>
-        <div class="feature-item"><h4>��端原生体验</h4><p>无需离开终端，直接在命令行中完成所有操作</p></div>
+        <div class="feature-item"><h4>终端原生体验</h4><p>无需离开终端，直接在命令行中完成所有操作</p></div>
         <div class="feature-item"><h4>多文件编辑</h4><p>一次对话中可同时修改多个文件，保持一致性</p></div>
       </div>
 
@@ -568,7 +568,7 @@ node --version  # 应显示 v18+ 或 v20+</code></pre>
 
       <div class="tip-box">
         <div class="tip-title">⚠ Windows 用户注意</div>
-        <p>Windows 系��还需要额外安装 <a href="https://git-scm.com/downloads/win" target="_blank" style="color:var(--primary)">Git for Windows</a>，否则 Claude Code 可能无法正常运行。安装时保持默认选项即可。</p>
+        <p>Windows 系统还需要额外安装 <a href="https://git-scm.com/downloads/win" target="_blank" style="color:var(--primary)">Git for Windows</a>，否则 Claude Code 可能无法正常运行。安装时保持默认选项即可。</p>
       </div>
 
       <h3>2. 安装 Claude Code CLI（必须）</h3>
